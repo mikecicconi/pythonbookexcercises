@@ -1,6 +1,5 @@
-def say():
-    print('Output from say')
+def say(text='Hello'):
+    print(text + '!')
 
-print('First')
-say()
-print('Last')
+say('Howdy')
+say()    
